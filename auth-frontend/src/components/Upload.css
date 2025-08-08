@@ -1,0 +1,68 @@
+.upload-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.upload-container h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.upload-container form div {
+  margin-bottom: 20px;
+}
+
+.upload-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.upload-container input,
+.upload-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.upload-container input[type="file"] {
+  padding: 5px;
+}
+
+.upload-container input[type="password"] {
+  font-family: 'Courier New', monospace;
+}
+
+.upload-container button {
+  width: 100%;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-container button:hover {
+  background-color: #2980b9;
+}
+
+.upload-container p {
+  margin-top: 20px;
+  text-align: center;
+  color: green;
+  font-weight: 500;
+}

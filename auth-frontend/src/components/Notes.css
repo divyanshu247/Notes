@@ -1,0 +1,32 @@
+.notes-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.notes-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.notes-year-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.notes-year-button {
+  padding: 8px 16px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notes-year-button:hover {
+  background-color: #3f51b5;
+}
+
+.notes-subject-section {
+  margin-top: 20px;
+}
